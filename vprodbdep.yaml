@@ -37,7 +37,7 @@ spec:
             volumeID: vol-00c1213e7c0823ce5
             fsType: ext4
 
-      intiContainers:
+      initContainers:
         - name: busybox
           image: busybox:latest
           args : [ "rm", "-rf", "/var/lib/mysql/lost+found"]
